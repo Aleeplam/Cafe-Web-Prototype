@@ -1,0 +1,50 @@
+/* ==========================================================================
+   KALA SENJA COFFEE & ROASTERY — DESIGN TOKENS & VARIABLES
+   File: css/variables.css
+   Fungsi: Mendefinisikan seluruh variabel warna, font, shadow, dan ukuran.
+   ========================================================================== */
+
+:root {
+  /* Color Tokens - Earthy Warm Coffee Theme */
+  --color-espresso-darker: #150C07;
+  --color-espresso: #2C1810;
+  --color-espresso-light: #3D2319;
+  --color-roast-surface: #24140D;
+  --color-cream-bg: #FBF7F2;
+  --color-cream-surface: #F5EDE4;
+  --color-cream-subtle: #EFE4D6;
+  --color-latte: #D7B999;
+  --color-latte-dark: #B89673;
+  --color-gold: #D4AF37;
+  --color-gold-hover: #BF9B27;
+  --color-gold-glow: rgba(212, 175, 55, 0.25);
+  --color-amber: #E09F3E;
+
+  /* Text Colors */
+  --text-primary-dark: #1E110A;
+  --text-secondary-dark: #5C4334;
+  --text-muted-dark: #8C7565;
+  --text-primary-light: #FAF6F0;
+  --text-secondary-light: #E0D3C5;
+  --text-muted-light: #AD9B8B;
+
+  /* Typography */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing & Layout */
+  --section-padding-y: 100px;
+  --container-max-width: 1240px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Transitions & Shadows */
+  --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-bounce: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --shadow-sm: 0 2px 8px rgba(44, 24, 16, 0.06);
+  --shadow-md: 0 8px 24px rgba(44, 24, 16, 0.08);
+  --shadow-lg: 0 16px 36px rgba(44, 24, 16, 0.12);
+  --shadow-glow: 0 0 25px rgba(212, 175, 55, 0.2);
+}

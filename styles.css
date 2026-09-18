@@ -1,0 +1,20 @@
+/* ==========================================================================
+   KALA SENJA COFFEE & ROASTERY — MASTER STYLESHEET
+   File: styles.css
+   Fungsi: Mengimpor seluruh modul CSS modular (Separation of Concerns).
+   ========================================================================== */
+
+/* 1. Design Tokens & CSS Variables */
+@import url('css/variables.css');
+
+/* 2. Base Reset, Typography & Reusable Buttons */
+@import url('css/base.css');
+
+/* 3. Structural Layout (Top Bar, Header, Drawer, Footer) */
+@import url('css/layout.css');
+
+/* 4. Page Sections (Hero, About, Highlights, Menu, Gallery, Reviews, Reservation, Location) */
+@import url('css/sections.css');
+
+/* 5. Interactive Components (Modals, Cart Drawer, Lightbox, Toast, Floating CTA, Media Queries) */
+@import url('css/components.css');
